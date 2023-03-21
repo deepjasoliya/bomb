@@ -1,0 +1,39 @@
+.farmContainer{
+    background-color: #23284bc1;
+    padding: 1rem;
+}
+
+.btcPoolheader, .bnbPoolheader{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 2rem;
+}
+
+.btcPoolStatContainer, .bnbPoolStatContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bnbStat, .btcStat{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.writeBtns{
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    width: 100%;
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+.btnContainer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}

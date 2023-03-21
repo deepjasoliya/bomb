@@ -1,0 +1,63 @@
+.boardContainer{
+    color: white;
+}
+
+.btnContainer{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+
+.btn{
+    background-color: rgba(128, 128, 128, 0.251);
+    margin-top: 1rem;
+    padding: 0.5rem;
+    text-align: center;
+    width: 50%;
+    border: none;
+    text-decoration: none;
+}
+
+.boardPortfolioContainer{
+    background-color: #23284bc1;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+.boardStats{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    gap: 2rem;
+    flex-wrap: wrap;
+
+}
+
+.boardBtnContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.writeBtns{
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    width: 100%;
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+.specialChar{
+    background-color: rgba(255, 255, 255, 0.219);
+    border-radius: 50%;
+}
+
+.bshareDailyAPR, .bshareStaked, .bshareEarned{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

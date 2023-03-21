@@ -1,0 +1,28 @@
+.container{
+    background-color: #23284bc1;
+}
+
+.header{
+    display: flex;
+    justify-content: flex-start;
+    padding: 1rem;
+    align-items: center;
+}
+
+.purchaseContainer, .redeemContainer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+}
+
+.writeBtns{
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    /* width: 100%; */
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}

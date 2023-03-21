@@ -1,0 +1,36 @@
+.financeSummary{
+    background-color: #23284bc1;
+    border-radius: 0.5rem;
+    padding: 2rem;
+}
+
+.finContent{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+ 
+}
+
+.finStats{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.finEpoch{
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+}
